@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat << 'EOF' > /root/jp-flashcards/start.sh
+cat << 'EOF' > /root/japanese-flashcards/start.sh
 #!/bin/bash
 
 # Extract the primary IP address used for outbound internet traffic
@@ -11,4 +11,4 @@ echo "--> Detected Host IP: ${ROCKY_IP}"
 # Launch the stack using the dynamic variable
 docker compose up -d --build
 EOF
-chmod +x /root/jp-flashcards/start.sh
+chmod +x /root/japanese-flashcards/start.sh

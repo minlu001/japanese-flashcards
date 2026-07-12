@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat << 'EOF' > /root/jp-flashcards/frontend/index.html
+cat << 'EOF' > /root/japanese-flashcards/frontend/index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>

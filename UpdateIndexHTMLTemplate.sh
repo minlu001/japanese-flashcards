@@ -1,4 +1,4 @@
-cat << 'EOF' > /root/jp-flashcards/frontend/index.html.template
+cat << 'EOF' > /root/japanese-flashcards/frontend/index.html.template
 <!DOCTYPE html>
 <html lang="en">
 <head>

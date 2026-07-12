@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat << 'EOF' > /root/jp-flashcards/docker-compose.yml
+cat << 'EOF' > /root/japanese-flashcards/docker-compose.yml
 version: '3.8'
 
 services:

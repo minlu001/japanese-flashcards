@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat << 'EOF' > /root/jp-flashcards/frontend/Dockerfile
+cat << 'EOF' > /root/japanese-flashcards/frontend/Dockerfile
 FROM nginx:alpine
 COPY index.html.template /usr/share/nginx/html/index.html.template
 EXPOSE 80

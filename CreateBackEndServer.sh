@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat << 'EOF' > /root/jp-flashcards/backend/server.js
+cat << 'EOF' > /root/japanese-flashcards/backend/server.js
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const cors = require('cors');

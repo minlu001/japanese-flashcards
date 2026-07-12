@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mkdir -p /root/jp-flashcards/frontend /root/jp-flashcards/backend
+mkdir -p /root/japanese-flashcards/frontend /root/japanese-flashcards/backend
