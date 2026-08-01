@@ -1,0 +1,17 @@
+cat << 'EOF' > frontend/index.html.template
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Japanese Flashcards</title>
+</head>
+<body>
+  <h1>Japanese Flashcards</h1>
+  <div id="app"></div>
+  <script>
+    const BACKEND_URL = "http://${ROCKY_IP}:3000";
+    console.log("Connecting to backend at:", BACKEND_URL);
+  </script>
+</body>
+</html>
+EOF
